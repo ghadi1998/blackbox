@@ -10,7 +10,6 @@ const mongoURI = "mongodb://localhost:27017/code_chalenge";
 
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
-
 // Init gfs
 let gfs;
 
